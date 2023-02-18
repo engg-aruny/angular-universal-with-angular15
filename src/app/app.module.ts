@@ -17,7 +17,7 @@ import { ProductDetailComponent } from './product/product-detail/product-detail.
     ProductDetailComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
